@@ -1,0 +1,45 @@
+@import "./css/global.css";
+@import "./css/header.css";
+
+body {
+    background-image: url(../img/fundo.jpeg);
+    background-size: 120rem 60rem ;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-block: 8rem 2rem;
+    font-size: 7rem;
+}
+
+p {
+    backdrop-filter: blur(0.4rem);
+    display: flex;
+    justify-content: center;
+    margin-inline: 30rem 30rem;
+    margin-bottom: 2rem;
+}
+
+main a {
+    display: block;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--creme);
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 2.4rem;
+    border: 2px solid var(--creme);
+    padding: 0.5rem 4rem;
+    border-radius: .5rem;
+    width: 15rem;
+    margin-left: 51rem;
+}
+
+main a:hover {
+    color: var(--red);
+    background: var(--creme);
+    transition: .7s;
+}

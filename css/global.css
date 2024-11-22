@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --creme: #fef3ea;
+    --bege-claro: #e7cda9;
+    --amarelo-escuro: #bf9900;
+    --white: #FFF;
+    --red: #930D00;
+    --header: #d4813c;
+    --laranja: #ff8800;
+    --black: #0000;
+    --verde: #119915;
+    --açafrao: #f1b578;
+}
+

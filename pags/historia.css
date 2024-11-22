@@ -1,0 +1,64 @@
+@import "../css/global.css";
+@import "../css/header.css";
+
+body {
+    background-color: var(--açafrao);
+}
+
+h1 {
+    color: white;
+    margin-left: 54rem;
+    margin-right: 54rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.parte1 {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 4rem;
+}
+
+.parte1 h2 {
+margin-bottom: 6.3rem;
+margin-right: 1rem;
+}
+
+.parte1 p {
+    border-radius: 2rem;
+    backdrop-filter: blur(0.2rem);
+    width: 40rem;
+}
+
+.parte1 img {
+    width: 21rem;
+    height: 15rem;
+    margin-inline: 3rem;
+    border-radius: 1.6rem;
+}
+
+.parte2 {
+    display: flex;
+    align-items: center;
+}
+.parte2 h2 {
+    margin-left: 23rem;
+    margin-top: -8rem;
+    margin-right: 0.6rem;
+}
+.parte2 p {
+    border-radius: 1rem;
+    backdrop-filter: blur(0.4rem);
+    width: 37rem;
+    margin-right: 2rem;
+}
+.parte2 img {
+    margin-top: 4rem;
+    width: 27rem;
+    height: 18rem;
+    border-radius: 2rem;
+}

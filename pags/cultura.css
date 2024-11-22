@@ -1,0 +1,47 @@
+@import "../css/global.css";
+@import "../css/header.css";
+
+body {
+    background-color: var(--bege-claro);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 54rem;
+    margin-right: 54rem;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+div h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline-end: 50rem;
+    margin-bottom: 1rem;
+}
+
+div p {
+    border-radius: 2rem;
+    backdrop-filter: blur(0.2rem);
+    margin-left: 35rem;
+    width: 50rem;
+    margin-bottom: 0.5rem;
+}
+
+div img {
+    display: flex;
+    align-items: center;
+    margin-left: 46rem;
+    width: 25rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1.6rem;
+}
+.parte3 p {
+    border-radius: 1rem;
+    backdrop-filter: blur(0.8rem);
+}
